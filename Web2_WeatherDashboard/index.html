@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0" >
+<title>7-Day Weather Forecast for Rio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--// Based on dribbble shot https://dribbble.com/shots/2097042-Widget-Weather by kylor
+    icons gottens from codepen by Josh Bader: https://codepen.io/joshbader/pen/EjXgqr-->
+<div class= header><h1>7-Day Weather Forecast</h1>
+<h1><label for="city">Choose a City:</label>
+<select name="cities" id="cities">
+<option value="Rio">Rio</option>
+<option value="NYC">NYC</option>
+<option value="Taipei">Taipei</option>
+<option value="Beijing">Beijing</option>
+</select></h1>
+</div>
+<div class="wrapper">
+    <div class="day">Monday
+    <div class="temperature"> 34°C</div>
+    <div class="icon sunny">
+        <div class="sun">
+          <div class="rays"></div>
+        </div>
+      </div> 
+    <div class="advice"> Wear sunscreen before your face melts</div>  
+    </div>
+
+    <div class="day">Tuesday 
+    <div class="temperature"> 33°C</div>
+    <div class="icon sunny">
+        <div class="sun">
+          <div class="rays"></div>
+        </div>
+      </div> 
+    <div class="advice"> don't go outside without sunglasses</div>  
+    </div>
+
+    <div class="day">Wednesday
+    <div class="temperature"> 35°C</div>
+    <div class="icon sunny">
+        <div class="sun">
+          <div class="rays"></div>
+        </div>
+      </div> 
+    <div class="advice"> have you heard of "Hell de Janeiro"?</div>  
+    </div>
+
+    <div class="day">Thursday
+    <div class="temperature"> 32°C</div>
+    <div class="icon sunny">
+        <div class="sun">
+          <div class="rays"></div>
+        </div>
+      </div> 
+    <div class="advice"> It is so hot outside you can fry and egg</div>  
+    </div>
+
+    <div class="day">Friday
+    <div class="temperature"> 32°C</div>
+    <div class="icon sunny">
+        <div class="sun">
+          <div class="rays"></div>
+        </div>
+      </div> 
+    <div class="advice"> It is so hot outside you can fry and egg</div> 
+    </div>
+
+    <div class="day">Saturday 
+    <div class="temperature"> 30°C</div>
+    <div class="icon sunny">
+        <div class="sun">
+          <div class="rays"></div>
+        </div>
+      </div> 
+    <div class="advice"> I hope your A/C is working</div> 
+    </div>
+
+    <div class="day">Sunday 
+    <div class="temperature"> 31°C</div>
+    <div class="icon sunny">
+        <div class="sun">
+          <div class="rays"></div>
+        </div>
+      </div> 
+    <div class="advice"> Make sure to drink lots of water today</div> 
+    </div>
+</div>
+<script src="fetch.js"></script>
+</body>
+</html>
